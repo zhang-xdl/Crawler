@@ -14,8 +14,8 @@ import xlsxwriter
 #
 # sys.setdefaultencoding("utf-8")
 
-#登录，不登录不能爬取三个月之内的数据,代码参考博客[1]
 import LianJiaLogIn
+
 
 
 
