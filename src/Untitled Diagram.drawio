@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T07:05:18.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="wliD3jljUtuOouIcjzxb" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T07:56:30.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="zdblQxowmP8HGkL1N_rc" version="14.6.13" type="github">
   <diagram id="VKMHK3g8FMRFTHxasIfS" name="Page-1">
     <mxGraphModel dx="1693" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -778,7 +778,7 @@
             <mxPoint x="986.5" y="2400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-26" value="同步hive/day" style="text;strokeColor=none;fillColor=#FF0080;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-26" value="5.同步hive/day" style="text;strokeColor=none;fillColor=#FF0080;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="1006.5" y="2500" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vKC2D8JHhrOAG4iTw_gZ-27" value="category" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF00;" vertex="1" parent="1">
@@ -799,7 +799,7 @@
             <mxPoint x="878.5" y="2550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-31" value="同步hive/day" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-31" value="2.同步hive/day" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="590" y="2500" width="81.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vKC2D8JHhrOAG4iTw_gZ-33" value="" style="endArrow=classic;html=1;strokeColor=#0000FF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vKC2D8JHhrOAG4iTw_gZ-13" target="vKC2D8JHhrOAG4iTw_gZ-14">
@@ -831,7 +831,7 @@
         <mxCell id="vKC2D8JHhrOAG4iTw_gZ-40" value="UMS allocation result" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC6600;" vertex="1" parent="1">
           <mxGeometry x="379" y="2400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-46" value="工作流load/hour" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-46" value="1.工作流load/hour" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="167" y="2500" width="100" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vKC2D8JHhrOAG4iTw_gZ-52" value="pca number&amp;amp;ecc number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;html=1;" vertex="1" parent="1">
@@ -888,10 +888,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-69" value="同步hive/实时" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-69" value="3.同步hive/实时" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="713.5" y="2500" width="110" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-70" value="同步hive/实时" style="text;strokeColor=none;fillColor=#FF0080;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-70" value="4.同步hive/实时" style="text;strokeColor=none;fillColor=#FF0080;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="861.5" y="2500" width="110" height="28" as="geometry" />
         </mxCell>
         <mxCell id="vKC2D8JHhrOAG4iTw_gZ-71" value="" style="endArrow=classic;html=1;strokeColor=#0000FF;fillColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vKC2D8JHhrOAG4iTw_gZ-14">
@@ -963,8 +963,11 @@
             <mxPoint x="950" y="2310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-85" value="同步hive/day" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="442.75" y="2500" width="81.5" height="26" as="geometry" />
+        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-85" value="2.同步hive/day" style="text;strokeColor=none;fillColor=#FF3399;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="442.75" y="2500" width="97.25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vKC2D8JHhrOAG4iTw_gZ-86" value="更新scaling流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
