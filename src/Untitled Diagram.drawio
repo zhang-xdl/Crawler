@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T03:07:34.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="SwzTR0QDCbIYRXkmhkWJ" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T02:58:33.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="zoJYVtOQ7GqLGPU4TuZg" version="14.9.0" type="github">
   <diagram id="VKMHK3g8FMRFTHxasIfS" name="Page-1">
-    <mxGraphModel dx="1460" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1011,6 +1011,51 @@
             <mxPoint x="850" y="2350" as="sourcePoint" />
             <mxPoint x="580" y="2400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iJ4mQbEqQZwS-cs7eglG-1" target="iJ4mQbEqQZwS-cs7eglG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-1" value="billing_upload_job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-2" value="idl_billing_upload_job_act" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iJ4mQbEqQZwS-cs7eglG-6" target="iJ4mQbEqQZwS-cs7eglG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-6" value="rdl_so_allocation_category_act" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="270" y="3200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-7" value="rdl_so_allocation_category_act" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="270" y="3290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-10" value="rdl_so_allocation_data_act" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="502" y="3290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-13" value="rdl_scaling_report_act" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="720" y="3290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-14" value="MYSQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-15" value="HIVE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="115" y="3110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-18" value="&lt;h1&gt;work step1&lt;/h1&gt;&lt;p&gt;MySql ,Hive 表添加字段：&lt;/p&gt;&lt;p&gt;mysql表直接添加字段，Hive 表需要先备份在重建。&lt;/p&gt;&lt;p&gt;Help：Hive 表新建和备份需要DB同学帮忙。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3360" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-19" value="&lt;h1&gt;work step1&lt;/h1&gt;&lt;p&gt;MySql ,Hive 表添加字段：&lt;/p&gt;&lt;p&gt;mysql表直接添加字段，Hive 表需要先备份在重建。&lt;/p&gt;&lt;p&gt;Help：Hive 表新建和备份需要DB同学帮忙。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="264.5" y="3360" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-20" value="同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="78" y="3250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-21" value="同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307" y="3250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-22" value="重建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="3250" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
