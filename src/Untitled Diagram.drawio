@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T02:58:33.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="zoJYVtOQ7GqLGPU4TuZg" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T03:13:21.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="hw1Ec_5ck5uoEnOGXVUW" version="14.9.0" type="github">
   <diagram id="VKMHK3g8FMRFTHxasIfS" name="Page-1">
     <mxGraphModel dx="1022" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1045,17 +1045,29 @@
         <mxCell id="iJ4mQbEqQZwS-cs7eglG-18" value="&lt;h1&gt;work step1&lt;/h1&gt;&lt;p&gt;MySql ,Hive 表添加字段：&lt;/p&gt;&lt;p&gt;mysql表直接添加字段，Hive 表需要先备份在重建。&lt;/p&gt;&lt;p&gt;Help：Hive 表新建和备份需要DB同学帮忙。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="3360" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="iJ4mQbEqQZwS-cs7eglG-19" value="&lt;h1&gt;work step1&lt;/h1&gt;&lt;p&gt;MySql ,Hive 表添加字段：&lt;/p&gt;&lt;p&gt;mysql表直接添加字段，Hive 表需要先备份在重建。&lt;/p&gt;&lt;p&gt;Help：Hive 表新建和备份需要DB同学帮忙。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="264.5" y="3360" width="200" height="170" as="geometry" />
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-19" value="&lt;h1&gt;work step2&lt;/h1&gt;&lt;p&gt;同步工作流修改：&lt;/p&gt;&lt;p&gt;&lt;span&gt;MySql 到HIVE数据同步工作流添加字段和响应多级修改。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;预分摊（category）的定时重建表的工作流的修改。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="264.5" y="3360" width="195.5" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="iJ4mQbEqQZwS-cs7eglG-20" value="同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-20" value="同步" style="text;html=1;strokeColor=none;fillColor=#33FF33;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="78" y="3250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="iJ4mQbEqQZwS-cs7eglG-21" value="同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-21" value="同步" style="text;html=1;strokeColor=none;fillColor=#00FF80;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="307" y="3250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="iJ4mQbEqQZwS-cs7eglG-22" value="重建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-22" value="重建" style="text;html=1;strokeColor=none;fillColor=#00FF80;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="374" y="3250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-23" value="工作流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00FF80;" vertex="1" parent="1">
+          <mxGeometry x="190" y="3110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-24" value="&lt;h1&gt;work step3&lt;/h1&gt;&lt;p&gt;Java 逻辑修改：&lt;/p&gt;&lt;p&gt;&lt;span&gt;Ledger 添加USD amount 逻辑 并通过MQ 传输到Billing Service。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;MQ 对应代码修改，将USD Amount 写入 MySql 的job 表和category 表&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="3360" width="195.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-25" value="&lt;h1&gt;work step4&lt;/h1&gt;&lt;p&gt;Scaling 逻辑修改：&lt;/p&gt;&lt;p&gt;Scaling ACT 数据USD Amount 改到从cost 取。&lt;/p&gt;&lt;p&gt;Parts reclass 抛账就是USD，所以这部分目前看不用修改。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="712" y="3360" width="195.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iJ4mQbEqQZwS-cs7eglG-26" value="&lt;h1&gt;work step5&lt;/h1&gt;&lt;p&gt;Scaling 逻辑修改：&lt;/p&gt;&lt;p&gt;Scaling ACT 数据USD Amount 改到从cost 取。&lt;/p&gt;&lt;p&gt;Parts reclass 抛账就是USD，所以这部分目前看不用修改。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42.25" y="3530" width="195.5" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
