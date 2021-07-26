@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T06:53:34.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="CxoO8RYBm2z9Lv_pvZa-" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-26T07:29:04.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="hkQb2gyZHssIevEsd3ov" version="14.9.2" type="github">
   <diagram id="VKMHK3g8FMRFTHxasIfS" name="Page-1">
     <mxGraphModel dx="1022" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1124,13 +1124,54 @@
           <mxGeometry x="846.5" y="4000" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Cn6q58oKIas-NhHTHVaq-22" value="Billing Info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="4460" width="140" height="80" as="geometry" />
+          <mxGeometry x="70" y="4460" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Cn6q58oKIas-NhHTHVaq-23" value="jobid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-22">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Cn6q58oKIas-NhHTHVaq-24" value="invoice number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-22">
           <mxGeometry y="52" width="140" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-30" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-22">
+          <mxGeometry y="80" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.528;exitY=1.083;exitDx=0;exitDy=0;entryX=0.557;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="Cn6q58oKIas-NhHTHVaq-31" target="Cn6q58oKIas-NhHTHVaq-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="317" y="4600" />
+              <mxPoint x="148" y="4600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-27" value="So Info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="242.75" y="4460" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-28" value="so id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-27">
+          <mxGeometry y="26" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-29" value="so line" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-27">
+          <mxGeometry y="48" width="140" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-31" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-27">
+          <mxGeometry y="76" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-32" value="So Allocation data" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="4640" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-33" value="jobid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-32">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-34" value="invoice number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-32">
+          <mxGeometry y="52" width="140" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-35" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Cn6q58oKIas-NhHTHVaq-32">
+          <mxGeometry y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn6q58oKIas-NhHTHVaq-36" value="" style="endArrow=classic;html=1;exitX=0.481;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Cn6q58oKIas-NhHTHVaq-30" target="Cn6q58oKIas-NhHTHVaq-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="4640" as="sourcePoint" />
+            <mxPoint x="550" y="4590" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
